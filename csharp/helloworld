@@ -1,2 +1,2 @@
 #!/bin/bash
-mono HelloWorld.exe
+mono HelloWorld.exe "$@"
