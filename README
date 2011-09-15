@@ -1,4 +1,15 @@
 This repository provides examples of submissions for the HelloWorld puzzle in the accepted languages on gild.com
 
+To submit solutions containing multiple files, please pack all your files into an archive and submit the archive only.
+We support: zip, tar, gzip, bz2, tar+gzip, tar+bz2
+
+E.g. (java):
+
+$cd examples-solutions/helloworld/java/
+$tar zcvf helloworld.tgz *
+
+Please do not include binary files in your package, or your submission will be discarded (only source code and builders, like ant files or makefiles).
+Try to avoid to have subfolder in your archive - this often confuses the build process (e.g. if you have 2 folders in your archive, where is your code?)
+
 Any comment goes to lbonmassar at gild.com
  
