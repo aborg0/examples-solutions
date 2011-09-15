@@ -1,0 +1,2 @@
+all:
+	scalac HelloWorld.scala
