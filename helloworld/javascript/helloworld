@@ -1,0 +1,2 @@
+#!/bin/bash
+rhino helloworld.js "$@"
